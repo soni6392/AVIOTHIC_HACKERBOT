@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exploring The India- Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Exploring The India</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="booking.html" class="active">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="booking">
+  <h2>Book Your Tour</h2>
+  <form id="booking-form">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email Address" required />
+    <select name="destination" required>
+      <option value="" disabled selected>Select Destination</option>
+      <option value="Lucknow">Lucknow</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Kanpur">Kanpur</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Agra">Agra</option>
+      <option value="Jaipur">Jaipur</option>
+      <option value="Tamil nadu">Tamil nadu</option>
+      <option value="Bengaluru">Bengaluru</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+    </select>
+    <input type="date" name="date" required />
+    <button type="submit">Book Now</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Exploring The India. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
