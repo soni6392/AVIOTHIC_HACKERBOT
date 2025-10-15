@@ -44,7 +44,7 @@ nav ul li a.active {
 
 /* ========== HERO SECTION ========== */
 .hero {
-  background: url('D:\\Japan Travel - The Ultimate Guide to Cherry Blossom Festivals Across Japan.jpg') no-repeat center/cover;
+  background: url() no-repeat center/co
   height: 60vh;
   display: flex;
   align-items: center;
@@ -251,5 +251,6 @@ header {
 .hero {
   margin-top: 90px; /* pushes hero image below header */
 }
+
 
 
